@@ -12,5 +12,5 @@ class TestPlayground(unittest.TestCase):
 
     def test_fibonacci_with_simple_test_fail(self):
          fib = pg.fibonacci(1,2,5)
-         expected_output = [1,2]
+         expected_output = [21,1]
          assert fib == expected_output

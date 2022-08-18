@@ -21,3 +21,5 @@ def fibonacci(num1: int, num2: int, limit: int) -> list:
             fibonacci.append(nextNum)
         else :
             return fibonacci
+
+print('asd')
