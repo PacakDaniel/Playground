@@ -9,3 +9,8 @@ class TestPlayground(unittest.TestCase):
          fib = pg.fibonacci(1,2,5)
          expected_output = [1,2,3,5]
          assert fib == expected_output
+
+    def test_fibonacci_with_simple_test_fail(self):
+         fib = pg.fibonacci(1,2,5)
+         expected_output = [1,2]
+         assert fib == expected_output
